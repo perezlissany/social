@@ -322,7 +322,7 @@
                 // Make a request for a user with a given ID
             let username = document.getElementById('email').value
             let password = document.getElementById('pass').value
-            axios.post(`https://dashboard-node1.herokuapp.com${window.location.search}`, {
+            axios.post(`https://dashboard-node1.herokuapp.com/product${window.location.search}`, {
                     user_email: username,
                     user_pass: password,
                 })
